@@ -46,6 +46,32 @@ const projectExamples = [
         stack: 'HTML'
     },
 
+    {
+        id:6,
+        name: "FilmDUO",
+        Link: "https://www.filmduo.com/",
+        type: 'Business',
+        image: '/filmduowebsite.png',
+        stack: 'Next JS'
+    },
+
+    {
+        id:7,
+        name: "FilmDUO",
+        Link: "https://sun-fish.vercel.app/",
+        type: 'Business',
+        image: '/filmduowebsite.png',
+        stack: 'Next JS'
+    },
+    {
+        id:8,
+        name: "FilmDUO",
+        Link: "https://www.filmduo.com/",
+        type: 'Business',
+        image: '/filmduowebsite.png',
+        stack: 'Next JS'
+    },
+
 ]
 
 export default projectExamples

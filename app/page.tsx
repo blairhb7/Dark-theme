@@ -7,7 +7,7 @@ import { twMerge } from "tailwind-merge";
 
 export default function Home() {
   return (
-    <main className="flex  h-full flex-col">
+    <main className="">
       <LandingPage/>
       <Footer/>
     </main>
