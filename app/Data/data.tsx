@@ -31,7 +31,7 @@ const projectExamples = [
     {
         id:4,
         name: "FilmDUO",
-        Link: "https://www.filmduo.com/",
+        Link: "https:/uber.jpeg",
         type: 'Business',
         image: '/filmduowebsite.png',
         stack: 'Next JS'

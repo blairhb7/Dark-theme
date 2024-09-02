@@ -4,6 +4,7 @@ const faq = () => {
   return (
     <>
        <section className=" p-8 md:px-20 md:py-20 w-full bg-black ">
+            <h1 className=" font-bold  text-white py-4 text-xl md:text-4xl">Frequently Asked Questions</h1>
             <div className="justify-center items-center flex flex-col gap-6 " >
                 <div tabIndex={0} className="collapse collapse-plus rounded-none bg-black text-white border-[#cececedf] border">
                     <div className="collapse-title text-xl text-orange-600 font-medium">What essential technologies do I know as a Frontend Developer?</div>
