@@ -3,7 +3,7 @@ import React from 'react'
 const footer = () => {
   return (
     <>
-     <section className=" flex bg-black">
+     <section className=" h-full flex bg-black">
             <footer className="footer bg-black text-white p-10">
                 <nav>
                     <h6 className="footer-title">Featured Work</h6>
