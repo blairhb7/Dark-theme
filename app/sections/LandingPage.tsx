@@ -6,7 +6,7 @@ import { useState } from 'react'
 import projectExamples from '@/app/Data/data'
 import { link } from 'fs'
 import { cn } from "@/app/lib/utils";
-import Marquee from "@/app/Components/marquee"
+import { Fade, Slide } from "react-awesome-reveal";
 
 const LandingPage = () => {
     const [model, setModel] = useState(false)
@@ -17,19 +17,23 @@ const LandingPage = () => {
     <>
     <main className=' flex flex-col  w-full  bg-[#000000] text-white '>
         <div className=" w-full flex flex-col md:flex-row md:mt-20 mt-8 pb-6 ">
-            <section className=" grid px-8 pt-8 md:pt-0 md:px-16 w-full md:h-auto h-72 ">
-                <div className=" w-full flex flex-col ">
-                    <h1 className=" text-4xl sm:text-7xl md:text-5xl   uppercase bodoni-moda ">Hey, I'm <span className=' text-[#eb7535]'>Blair.</span> </h1>
-                    <h2 className=' text-2xl md:text-4xl  uppercase font-BodoniModa  font-normal '>I am software <span className=' text-rose-500'>developer</span></h2>
-                    <div className="flex justify-left space-x-4 md:space-x-14 pt-2 md:pt-6 text-sm md:text-md uppercase">
-                        
-                        <button className="hover:translate-y-2 ease-linear  uppercase border px-3 md:px-10 rounded-md border-[#262626] hover:border-rose-500 duration-500">Resume</button>
+            <section className=" grid px-8 pt-8 md:pt-0 md:px-16 w-full md:h-auto h-60 ">
+                <Slide duration={3000}>
+                    <div className=" w-full flex text-center sm:text-left flex-col ">
+                        <h1 className=" text-4xl sm:text-7xl md:text-5xl   uppercase bodoni-moda ">Hey, I'm <span className=' text-[#eb7535]'>Blair.</span> </h1>
+                        <h2 className=' text-2xl md:text-4xl  uppercase font-BodoniModa  font-normal '>I am software <span className=' text-rose-500'>developer</span></h2>
+                        <div className="flex items-center justify-center sm:items-start sm:justify-start space-x-4 md:space-x-4 pt-2 md:pt-6 text-center sm:text-left text-sm md:text-md uppercase">
+                            <a href="https://www.linkedin.com/in/blair-chappell-23818420a/"><img className='hover:-translate-y-2 duration-500 ease-linear  w-6 h-6 sm:w-8 sm:h-8' src="/linkedin.png" alt="linkedin" /></a>
+                            <a href="https://www.linkedin.com/in/blair-chappell-23818420a/"><img className='hover:-translate-y-2 ease-linear  duration-500 w-6 h-6 sm:w-8 sm:h-8' src="/github.png" alt="github" /></a>
+                            <button className="hover:-translate-y-2 ease-linear  uppercase border px-3 md:px-10 sm:mt-0 py-2 rounded-md border-[#262626] hover:border-rose-500 duration-500">Resume</button>
+                        </div>
                     </div>
-                </div>
+                </Slide>
             </section>
 
             <section className=" mx-6 md:px-0 grid ">
-                <div className=" w-full flex flex-col">
+                <Fade duration={8000}>
+                    <div className=" w-full flex flex-col">
                         
                     <h1 className=' text-2xl md:text-5xl uppercase'>About</h1>
                         <p className="py-4  md:w-[80%] md:text-sm font-thin">Back in 2013, I decided to try my hand at learning how to code and create websites, and tumbled head first into the rabbit hole of coding and web development. 
@@ -42,11 +46,14 @@ const LandingPage = () => {
                         When I’m not at the computer, I’m usually watching the Golden State Warriors, exploring the wild backpacking, or deep into video editing for FilmDUO.
                         </p>
                     </div>
+                </Fade>
             </section>
+
         </div>
 
 
         <section className="grid grid-cols-1 col-span-2 pt-12 md:pt-20">
+            <Fade duration={7000}>
             <div className=" ">
                 <ul className=" items-center text-center md:text-left sm:flex hidden  text-xs md:text-base md:px-20  px-8 justify-center md:justify-start md:font-light text-white md:text-[#ebebeb] space-x-2 ">
                     <li className="    text-xs md:text-base border rounded-md  border-[#262626] px-2 md:px-4 hover:text-[#eb7535]  duration-300 cursor-pointer">All</li>
@@ -82,6 +89,7 @@ const LandingPage = () => {
                     }
                 </div>
             </div>
+            </Fade>
         </section>
        
     </main>

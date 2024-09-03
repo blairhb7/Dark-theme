@@ -12,7 +12,6 @@ export default function Home() {
     <main className="">
       <LandingPage/>
       <Faq/>
-      <Contact/>
       <Footer/>
     </main>
   );
