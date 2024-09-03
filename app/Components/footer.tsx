@@ -3,18 +3,17 @@ import React from 'react'
 const footer = () => {
   return (
     <>
-     <section className=" h-full flex bg-black">
-            <footer className="footer bg-black text-white p-10">
+     <section className=" h-full flex w-full bg-black">
+            <footer className="footer bg-black text-white sm:flex justify-between px-20 py-24">
                 <nav>
                     <h6 className="footer-title">Featured Work</h6>
-                    <a className="link link-hover">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
+                    <a className="link link-hover">Projects</a>
                     <a className="link link-hover">Email</a>
+                    <a className="link link-hover">React</a>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Personal</h6>
-                    <a className="link link-hover">BIO</a>
+                    <a className="link link-hover">About</a>
                     <a className="link link-hover">Contact</a>
                 </nav>
                 <nav>

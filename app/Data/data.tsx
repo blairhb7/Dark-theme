@@ -33,16 +33,16 @@ const projectExamples = [
         name: "FilmDUO",
         Link: "https:/uber.jpeg",
         type: 'Business',
-        image: '/filmduowebsite.png',
+        image: '/newsletter.jpeg',
         stack: 'Next JS'
     },
 
     {
         id:5,
         name: "Star Wars Outlaws",
-        Link: "https://sun-fish.vercel.app/",
+        Link: "https:/postmark.png",
         type: 'Promotional Email',
-        image: '/star-wars.jpeg',
+        image: '/postmark.png',
         stack: 'HTML'
     },
 
