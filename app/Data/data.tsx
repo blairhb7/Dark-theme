@@ -7,7 +7,9 @@ const projectExamples = [
         Link: "https://sun-fish.vercel.app/",
         type: 'Promotional Email',
         image: '/star-wars.jpeg',
-        stack: 'HTML'
+        stack: 'HTML',
+        category: 'Email',
+       
     },
 
     {
@@ -16,7 +18,9 @@ const projectExamples = [
         Link: "https://space-tourism-book.vercel.app/destination",
         type: 'Frontend Mentor',
         image: '/space.jpg',
-        stack: 'Next JS'
+        stack: 'Next JS',
+        category: 'Frontend Mentor',
+        All: 'All'
     } , 
 
     {
@@ -25,7 +29,9 @@ const projectExamples = [
         Link: "https://sun-fish.vercel.app/",
         type: 'Ecommrence',
         image: '/sunfish.png',
-        stack: 'Next JS'
+        stack: 'Next JS',
+        category: 'React',
+        All: 'All'
     },
 
     {
@@ -34,7 +40,9 @@ const projectExamples = [
         Link: "https:/uber.jpeg",
         type: 'Business',
         image: '/newsletter.jpeg',
-        stack: 'Next JS'
+        stack: 'Next JS',
+        category: 'React',
+        All: 'All'
     },
 
     {
@@ -43,34 +51,12 @@ const projectExamples = [
         Link: "https:/postmark.png",
         type: 'Promotional Email',
         image: '/postmark.png',
-        stack: 'HTML'
+        stack: 'HTML',
+        category: 'Email',
+       
     },
 
-    {
-        id:6,
-        name: "FilmDUO",
-        Link: "https://www.filmduo.com/",
-        type: 'Business',
-        image: '/filmduowebsite.png',
-        stack: 'Next JS'
-    },
-
-    {
-        id:7,
-        name: "FilmDUO",
-        Link: "https://sun-fish.vercel.app/",
-        type: 'Business',
-        image: '/filmduowebsite.png',
-        stack: 'Next JS'
-    },
-    {
-        id:8,
-        name: "FilmDUO",
-        Link: "https://www.filmduo.com/",
-        type: 'Business',
-        image: '/filmduowebsite.png',
-        stack: 'Next JS'
-    },
+   
 
 ]
 
