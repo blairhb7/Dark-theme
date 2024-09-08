@@ -4,7 +4,7 @@ const projectExamples = [
     {
         id:1,
         name: "Star Wars Outlaws",
-        Link: "https://sun-fish.vercel.app/",
+        Link: "https://starwars-outlaw.netlify.app/",
         type: 'Promotional Email',
         image: '/star-wars.jpeg',
         stack: 'HTML',
@@ -47,12 +47,23 @@ const projectExamples = [
 
     {
         id:5,
-        name: "Star Wars Outlaws",
+        name: "Google Play",
         Link: "https:/postmark.png",
-        type: 'Promotional Email',
-        image: '/postmark.png',
+        type: 'Transactional Email',
+        image: '/goggle-play.jpeg',
         stack: 'HTML',
         category: 'Email',
+       
+    },
+
+    {
+        id:6,
+        name: "NFT Store",
+        Link: "https://blairnft.netlify.app/",
+        type: 'Business',
+        image: '/nft.png',
+        stack: 'React',
+        category: 'React',
        
     },
 
