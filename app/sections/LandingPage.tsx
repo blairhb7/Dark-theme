@@ -36,11 +36,11 @@ const LandingPage = ( ) => {
                     <div id='About' className=" w-full flex flex-col">
                         
                     <h1 className=' text-2xl md:text-5xl uppercase'>About</h1>
-                        <p className="py-4  md:w-[80%] md:text-sm font-base">Back in 2013, I decided to try my hand at learning how to code and create websites, and tumbled head first into the rabbit hole of coding and web development. 
+                        <p className="py-4  md:w-[80%] md:text-sm font-base md:font-light">Back in 2013, I decided to try my hand at learning how to code and create websites, and tumbled head first into the rabbit hole of coding and web development. 
                         After many books, online coding program's, and lots of trial & error, I started to get a good feel for web development. 
                         But I knew the journey was just beginning!
                         </p>
-                        <p className="  md:text-sm md:w-[80%]  py-2 font-base">
+                        <p className="  md:text-sm md:w-[80%]  py-2 font-base md:font-light">
                         Fast-forward to today, I've been diving into more complex technologies like <span className=' font-extrabold text-white'>Email Devlopment,</span> <span className=' font-bold text-white'>React,</span> <span className='font-extrabold text-white'>Next-js,</span> <span className='text-white font-bold'>Tailwind,</span>  and <span className=' font-bold text-white'>Typescript.</span> As this field continues to change, I am always still learning. 
                         Which I enjoy because I like to continually get better at whatever I set my heart and mind too! 
                         When I’m not at the computer, I’m usually watching the Golden State Warriors, exploring the wild backpacking, or deep into video editing for FilmDUO.

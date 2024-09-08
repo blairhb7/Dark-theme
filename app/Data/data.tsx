@@ -19,7 +19,7 @@ const projectExamples = [
         type: 'Frontend Mentor',
         image: '/space.jpg',
         stack: 'Next JS',
-        category: 'Frontend Mentor',
+        category: 'React',
         All: 'All'
     } , 
 
@@ -36,12 +36,12 @@ const projectExamples = [
 
     {
         id:4,
-        name: "FilmDUO",
+        name: "HYPEBEAST",
         Link: "https:/uber.jpeg",
-        type: 'Business',
-        image: '/newsletter.jpeg',
-        stack: 'Next JS',
-        category: 'React',
+        type: 'Newsletter Email',
+        image: '/hypebeast.jpeg',
+        stack: 'HTML',
+        category: 'Email',
         All: 'All'
     },
 
@@ -50,7 +50,7 @@ const projectExamples = [
         name: "Google Play",
         Link: "https:/postmark.png",
         type: 'Transactional Email',
-        image: '/goggle-play.jpeg',
+        image: '/postmark.png',
         stack: 'HTML',
         category: 'Email',
        

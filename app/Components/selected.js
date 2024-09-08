@@ -9,7 +9,7 @@ export default function MultiFilters() {
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [filteredItems, setFilteredItems] = useState(projectExamples);
 
-  let filters = [ "Email", "React", "Frontend Mentor"];
+  let filters = [ "Email", "React",];
 
   const handleFilterButtonClick = (selectedCategory) => {
     if (selectedFilters.includes(selectedCategory)) {
@@ -62,8 +62,8 @@ export default function MultiFilters() {
         {filteredItems.map((item, idx) => (
           
              <div key={`items-${idx}`} className=" flex flex-col  hover:-translate-y-2 ease-linear duration-500 border rounded-md overflow-hidden  border-[#262626]  ">
-                                    <a className=' h-[75%] md:h-[80%] overflow-hidden' href={item.Link}>
-                                         <img width={500} height={500} className=' w-full cursor-pointer  md:h-[99%] flex  overflow-hidden ' src={item.image} alt=" projects" /></a>
+                                    <a className='  lg:h-60 overflow-hidden' href={item.Link}>
+                                         <img width={500} height={500} className=' w-full cursor-pointer  md:h-[99%] flex  bg-cover overflow-hidden ' src={item.image} alt=" projects" /></a>
                                         <div className="flex justify-between ">
                                             <div className="flex items-center gap-2">
                                                 <h1 className=" text-xs md:text-md  md:font-normal pt-2 md:pt-6 md:pb-2 pl-2 flex justify-start items-end">{item.name}</h1>
