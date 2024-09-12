@@ -47,10 +47,10 @@ const projectExamples = [
 
     {
         id:5,
-        name: "Google Play",
-        Link: "https:/postmark.png",
+        name: "Fandango Receipt",
+        Link: "https://fandangoemail.netlify.app/",
         type: 'Transactional Email',
-        image: '/postmark.png',
+        image: '/fandango.png',
         stack: 'HTML',
         category: 'Email',
        

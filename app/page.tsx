@@ -5,7 +5,7 @@ import Faq from "./Components/faq";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className=" mx-auto bg-black">
       <LandingPage/>
       <Faq/>
       <Footer/>

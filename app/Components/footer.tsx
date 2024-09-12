@@ -8,8 +8,7 @@ const footer = () => {
         <h1 className=" text-xl  font-light uppercase py-2">Contact</h1>
         <div className="flex w-full gap-2 ">
             <a href="https://www.linkedin.com/in/blair-chappell-23818420a/"><img className=' w-8 h-8' src="/linkedin.png" alt="linkedin" /></a>
-            <a href="https://www.linkedin.com/in/blair-chappell-23818420a/"><img className=' w-8 h-8' src="/github.png" alt="github" /></a>
-            <a href="https://www.linkedin.com/in/blair-chappell-23818420a/"></a>
+            <a href="https://github.com/blairhb7"><img className=' w-8 h-8' src="/github.png" alt="github" /></a>
         </div>
         <a href="mailto:Blairhb7io@gmail.com"><h3 className=" text-xl uppercase py-2">BLairhb7io@gmail.com</h3></a>
      </div>

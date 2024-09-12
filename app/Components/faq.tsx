@@ -28,7 +28,7 @@ const faq = () => {
                         
                         </div>
                     </Fade>
-                    <Fade duration={11000} >
+                    <Fade duration={10000} >
                         <div tabIndex={0} className="collapse collapse-plus focus:text-orange-600  rounded-none bg-black text-white  border-[#cececedf] border">
                             <div className="collapse-title  text-base  sm:text-xl font-bold ">What is my Experience with platforms like Braze?</div>
                                 <div className="collapse-content">
@@ -36,7 +36,7 @@ const faq = () => {
                                 </div>
                         </div>
                     </Fade>
-                    <Fade duration={12000}>
+                    <Fade duration={10000}>
                         <div tabIndex={0} className="collapse collapse-plus focus:text-orange-600  rounded-none bg-black text-white  border-[#cececedf] border">
                             <div className="collapse-title sm:text-xl  text-base  font-bold ">Is this Portfolio built using React?</div>
                                 <div className="collapse-content">

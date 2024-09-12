@@ -18,17 +18,22 @@ const LandingPage = ( ) => {
     <main className=' flex flex-col  w-full  bg-[#000000] text-white '>
         <div className=" w-full flex flex-col md:flex-row md:mt-20 mt-8 pb-6  2xl:mx-auto">
             <section className=" grid px-8 pt-8 md:pt-0 md:px-16 w-full md:h-auto h-60 ">
-                <Slide duration={3000}>
                     <div className=" w-full flex text-center sm:text-left flex-col ">
-                        <h1 className=" text-4xl sm:text-6xl md:text-5xl   uppercase  ">Hey, I'm <span className=' text-[#eb7535]'>Blair.</span> </h1>
-                        <h2 className=' text-2xl sm:text-3xl md:text-4xl  uppercase   font-normal '>I am software <span className=' text-rose-500'>developer</span></h2>
-                        <div className="flex items-center justify-center sm:items-start sm:justify-start space-x-4 md:space-x-4 pt-2 md:pt-6 text-center sm:text-left text-sm md:text-md uppercase">
-                            <a href="https://www.linkedin.com/in/blair-chappell-23818420a/"><img className='hover:-translate-y-2 duration-500 ease-linear  w-6 h-6 sm:w-8 sm:h-8' src="/linkedin.png" alt="linkedin" /></a>
-                            <a href="https://github.com/blairhb7"><img className='hover:-translate-y-2 ease-linear  duration-500 w-6 h-6 sm:w-8 sm:h-8' src="/github.png" alt="github" /></a>
-                            <button className="hover:-translate-y-2 ease-linear  uppercase border px-3 md:px-10 sm:mt-0 py-2 rounded-md border-[#262626] hover:border-rose-500 duration-500">Resume</button>
-                        </div>
+                        <Slide duration={1000}>
+                            <h1 className=" text-4xl sm:text-6xl md:text-5xl   uppercase  ">Hey, I'm <span className=' text-[#eb7535]'>Blair.</span> </h1>
+                        </Slide>
+                        <Slide duration={2000}>
+                            <h2 className=' text-2xl sm:text-3xl md:text-4xl  uppercase   font-normal '>I am software<Fade duration={4500}> <span className=' text-rose-500'>developer</span></Fade></h2>
+                        </Slide>
+                        <Slide duration={3000}>
+                            <div className="flex items-center justify-center sm:items-start sm:justify-start space-x-4 md:space-x-4 pt-2 md:pt-6 text-center sm:text-left text-sm md:text-md uppercase">
+                                <a href="https://www.linkedin.com/in/blair-chappell-23818420a/"><img className='hover:-translate-y-2 duration-500 ease-linear  w-6 h-6 sm:w-8 sm:h-8' src="/linkedin.png" alt="linkedin" /></a>
+                                <a href="https://github.com/blairhb7"><img className='hover:-translate-y-2 ease-linear  duration-500 w-6 h-6 sm:w-8 sm:h-8' src="/github.png" alt="github" /></a>
+                                <button className="hover:-translate-y-2 ease-linear  uppercase border px-3 md:px-10 sm:mt-0 py-2 rounded-md border-[#262626] hover:border-rose-500 duration-500">Resume</button>
+                            </div>
+                        </Slide>
                     </div>
-                </Slide>
+    
             </section>
 
             <section className=" mx-6 md:px-0 grid ">
