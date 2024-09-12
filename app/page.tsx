@@ -5,7 +5,7 @@ import Faq from "./Components/faq";
 
 export default function Home() {
   return (
-    <main className=" mx-auto block bg-black">
+    <main className=" flex justify-center items-center  bg-black">
       <LandingPage/>
       <Faq/>
       <Footer/>
