@@ -5,7 +5,7 @@ import Faq from "./Components/faq";
 
 export default function Home() {
   return (
-    <main className=" 2xl:mx-[400px] bg-black">
+    <main className=" 2xl:mx-[700px] bg-black">
       <LandingPage/>
       <Faq/>
       <Footer/>
