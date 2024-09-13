@@ -37,7 +37,7 @@ const projectExamples = [
     {
         id:4,
         name: "HYPEBEAST",
-        Link: "https:/uber.jpeg",
+        Link: "https://hypebeast-email.netlify.app/",
         type: 'Newsletter Email',
         image: '/hypebeast.jpeg',
         stack: 'HTML',
