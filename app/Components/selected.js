@@ -62,7 +62,7 @@ export default function MultiFilters() {
         {filteredItems.map((item, idx) => (
           
              <div key={`items-${idx}`} className=" flex flex-col  hover:-translate-y-2 ease-linear duration-500 border rounded-md overflow-hidden  border-[#262626]  ">
-                                    <a className='  lg:h-60 overflow-hidden' href={item.Link}>
+                                    <a className='  lg:h-60 overflow-hidden' href={item.Link} target="_blank">
                                          <img width={500} height={500} className=' w-full cursor-pointer  md:h-[99%] flex  bg-cover overflow-hidden ' src={item.image} alt=" projects" /></a>
                                         <div className="flex justify-between ">
                                             <div className="flex items-center gap-2">

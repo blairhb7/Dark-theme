@@ -27,9 +27,9 @@ const LandingPage = ( ) => {
                         </Slide>
                         <Slide duration={3000}>
                             <div className="flex items-center justify-center sm:items-start sm:justify-start space-x-4 md:space-x-4 pt-2 md:pt-6 text-center sm:text-left text-sm md:text-md uppercase">
-                                <a href="https://www.linkedin.com/in/blair-chappell-23818420a/"><img className='hover:-translate-y-2 duration-500 ease-linear  w-6 h-6 sm:w-8 sm:h-8' src="/linkedin.png" alt="linkedin" /></a>
-                                <a href="https://github.com/blairhb7"><img className='hover:-translate-y-2 ease-linear  duration-500 w-6 h-6 sm:w-8 sm:h-8' src="/github.png" alt="github" /></a>
-                                <button className="hover:-translate-y-2 ease-linear  uppercase border px-3 md:px-10 sm:mt-0 py-2 rounded-md border-[#262626] hover:border-rose-500 duration-500">Resume</button>
+                                <a href="https://www.linkedin.com/in/blair-chappell-23818420a/" target="_blank"><img className='hover:-translate-y-2 duration-500 ease-linear  w-6 h-6 sm:w-8 sm:h-8' src="/linkedin.png" alt="linkedin" /></a>
+                                <a href="https://github.com/blairhb7" target="_blank"><img className='hover:-translate-y-2 ease-linear  duration-500 w-6 h-6 sm:w-8 sm:h-8' src="/github.png" alt="github" /></a>
+                                <a href="https://www.blairchappell.site/Resume%20Updated.pdf" target="_blank"><button className="hover:-translate-y-2 ease-linear  uppercase border px-3 md:px-10 sm:mt-0 py-2 rounded-md border-[#262626] hover:border-rose-500 duration-500">Resume</button></a>
                             </div>
                         </Slide>
                     </div>

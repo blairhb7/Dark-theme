@@ -67,6 +67,17 @@ const projectExamples = [
        
     },
 
+    {
+        id: 7,
+        name: "Travel Life",
+        Link: "https://travel-life-psi.vercel.app/",
+        type: 'Blog',
+        image: '/brooklyn.png',
+        stack: 'Next JS',
+        category: 'React',
+        All: 'All'
+    } , 
+
    
 
 ]
