@@ -4,6 +4,7 @@ import "./globals.css";
 import Nav from "./Components/nav";
 import clsx, { ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +20,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className=" bg-black">
-      <head>
-      <script src="//code.tidio.co/19m4tcrxxe3vnf0lsvntbbyadkwql9w8.js" async></script>
-      </head>
-      <body className={inter.className}>{children}</body>
+      
+      <body className={inter.className}>{children} 
+      <Script
+          src={`<script src="//code.tidio.co/19m4tcrxxe3vnf0lsvntbbyadkwql9w8.js`}
+          strategy="lazyOnload"
+        />
+        </body>
     </html>
   );
 }
