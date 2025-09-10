@@ -19,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className=" bg-black">
+      <head>
+      <script src="//code.tidio.co/19m4tcrxxe3vnf0lsvntbbyadkwql9w8.js" async></script>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
