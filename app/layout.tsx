@@ -23,7 +23,7 @@ export default function RootLayout({
       
       <body className={inter.className}>{children} 
       <Script
-          src={`<script src="//code.tidio.co/19m4tcrxxe3vnf0lsvntbbyadkwql9w8.js`}
+          src={`//code.tidio.co/19m4tcrxxe3vnf0lsvntbbyadkwql9w8.js`}
           strategy="lazyOnload"
         />
         </body>
